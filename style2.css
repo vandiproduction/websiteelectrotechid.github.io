@@ -1,0 +1,145 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-image: url(background3.png);
+	background-size: 800px;
+}
+
+.container {
+	width: 80%;
+	margin: 40px auto;
+	padding: 20px;
+	background-color: transparent;
+	solid #ddd;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+	
+	
+}
+
+h1 {
+	color: white;
+	margin-bottom: 10px;
+	background-color: blue;
+	border-radius: 100px;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+}
+
+p {
+	margin-bottom: 20px;
+	color: white;
+	background-color: black;
+	border-radius: 100px;
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 10px;
+	text-align: ce;
+}
+
+form {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 15px;
+	font-family: Georgia;
+	font-weight: bold;
+	color: white;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 100px;
+	text-align: center;
+}
+
+textarea {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 100px;
+	text-align: center;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 100px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: blue;
+}
+
+ul {
+	list-style: square;
+	margin: 0px;
+	padding: 0px;
+	font-size: 18px;
+	color: white;
+}
+
+li {
+	margin-bottom: 10px;
+}
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+}
+.marquee-left {
+	background-color: black;
+	padding: 15px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	font-weight: bold;
+	color: white
+}
+ol{
+  font-size: 12px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  border-radius: 100px;
+  padding: 20px;
+  font-weight: bold;
+  
+}
